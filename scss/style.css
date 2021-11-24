@@ -120,17 +120,31 @@ nav .menu li a:hover {
   margin-top: 110px;
 }
 
-.home-page-footer .footer-places-item {
+.home-page-footer .footer-places {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (200px)[3];
       grid-template-columns: repeat(3, 200px);
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 60px;
+  padding-right: 5px;
+}
+
+.home-page-footer .footer-places-item {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+  width: auto;
+  height: 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.4fr 0.4fr;
+      grid-template-columns: 0.4fr 0.4fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .home-page-footer .arrow {

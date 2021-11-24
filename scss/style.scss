@@ -102,16 +102,25 @@ nav{
     padding-left: 20px;
     margin-top: 110px;
 
-    .footer-places-item{
+    .footer-places{
         display: grid;
         grid-template-columns: repeat(3, 200px);
-        column-gap: 50px;
+        column-gap: 40px;
         justify-content: center;
-        padding-right: 60px;
+        padding-right: 5px;
+    }
+
+    .footer-places-item{
+        background-color: rgba(100, 100, 100, 0.5);
+        border-radius: 10px;
+        width: auto;
+        height: 70px;
+        display: grid;
+        grid-template-columns: 0.4fr 0.4fr;
+        align-items: center;
     }
 
     .arrow{
-        align-self: end;
-        
+        align-self:end;
     }
 }
