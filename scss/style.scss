@@ -112,15 +112,21 @@ nav{
 
     .footer-places-item{
         background-color: rgba(100, 100, 100, 0.5);
-        border-radius: 10px;
+        border-radius: 15px;
         width: auto;
-        height: 70px;
+        height: 60px;
         display: grid;
-        grid-template-columns: 0.4fr 0.4fr;
+        grid-template-columns: 0.5fr auto;
         align-items: center;
+        line-height: 0.5;
     }
 
     .arrow{
         align-self:end;
+    }
+
+    .plan-link{
+        color: grey;
+        text-decoration: none;
     }
 }

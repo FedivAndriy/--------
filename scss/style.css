@@ -135,21 +135,27 @@ nav .menu li a:hover {
 
 .home-page-footer .footer-places-item {
   background-color: rgba(100, 100, 100, 0.5);
-  border-radius: 10px;
+  border-radius: 15px;
   width: auto;
-  height: 70px;
+  height: 60px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.4fr 0.4fr;
-      grid-template-columns: 0.4fr 0.4fr;
+  -ms-grid-columns: 0.5fr auto;
+      grid-template-columns: 0.5fr auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  line-height: 0.5;
 }
 
 .home-page-footer .arrow {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
+}
+
+.home-page-footer .plan-link {
+  color: grey;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
